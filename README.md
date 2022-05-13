@@ -22,3 +22,7 @@ cd manual
 make html
 ```
 
+## Docker image
+
+Included is a Dockerfile with all the dependencies for pandoc and latex installed.
+
