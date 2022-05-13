@@ -1,7 +1,7 @@
 # Introduction
 
-This document gives an example of how the Markdown Manual Template can be used.
+[Lima](https://github.com/lima-vm/lima) launches Linux virtual machines with automatic file sharing and port forwarding.
 
-The template expects normal makdown (with pandoc extensions) as an input and generates a nice static HTML 5 website and a PDF document.
+This user manual describes the installation and some common tasks when using Lima.
 
 ![The Creative Commons Attribution-ShareAlike logo](images/cc-by-sa.png)

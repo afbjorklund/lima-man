@@ -1,15 +1,17 @@
 ---
-title: "Template Device"
+title: "Lima: Linux machines"
 title-prefix: "User Manual"
 subtitle: "User Manual"
-author: [Martin Jäger]
-date: "2019-06-27"
-subject: "Markdown"
-keywords: [Markdown, Example]
+author: [Anders F Björklund]
+date: "2022-05-11"
+subject: "Linux machines"
+keywords: [lima, linux, virtual, machines]
 lang: "en"
 titlepage: true
-titlepage-text-color: "005e85"
-titlepage-rule-color: "005e85"
+titlepage-text-color: "00BF8C"
+titlepage-rule-color: "00BF8C"
 titlepage-rule-height: 2
+logo: "images/lima.pdf"
+logo-width: 200
 toc-own-page: true
 ...

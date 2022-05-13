@@ -1,4 +1,6 @@
-# Markdown Manual
+# User Manual
+
+This manual is built with <https://github.com/LibreSolar/md-manual-template>
 
 This is a template that uses [Pandoc](https://pandoc.org/) to auto-generate PDF and HTML manuals based on markdown content.
 
