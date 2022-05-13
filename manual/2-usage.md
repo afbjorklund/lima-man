@@ -6,7 +6,7 @@ Everything you need is stored in the `manual` subfolder. This makes sure it is e
 
 ## Pandoc metadata
 
-Some advanced configuration for pandoc is stored in the file `metadata.txt`.
+Some advanced configuration for pandoc is stored in the file `metadata.yml`.
 
 ## Markdown input
 
@@ -18,7 +18,7 @@ The HTML template is based on the great [mdBook](https://github.com/rust-lang-nu
 
 In the `manual` subfolder call:
 
-   pandoc metadata.txt *.md -o manual.html --template template/mdbook.html --from markdown --listings --number-sections --toc --toc-depth=2 --katex
+`pandoc metadata.yml *.md -o manual.html --template tool/template/mdbook.html --from markdown --listings --number-sections --toc --toc-depth=2`
 
 ## PDF generation
 
@@ -26,4 +26,4 @@ PDF files are generated using LaTeX, so a working LaTeX engine needs to be insta
 
 In the `manual` subfolder call:
 
-   pandoc metadata.txt *.md -o manual.pdf --template template/eisvogel.tex --from markdown --listings --number-sections --toc
+`pandoc metadata.yml *.md -o manual.pdf --template tool/template/eisvogel.tex --from markdown --listings --number-sections --toc`
