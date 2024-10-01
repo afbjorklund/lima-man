@@ -8,10 +8,10 @@ subject: "Linux machines"
 keywords: [lima, linux, virtual, machines]
 lang: "en"
 titlepage: true
-titlepage-text-color: "00BF8C"
-titlepage-rule-color: "00BF8C"
+titlepage-text-color: "000000"
+titlepage-rule-color: "32CD32"
 titlepage-rule-height: 2
-logo: "images/lima.pdf"
+logo: "images/logo.pdf"
 logo-width: 200
 toc-own-page: true
 ...
